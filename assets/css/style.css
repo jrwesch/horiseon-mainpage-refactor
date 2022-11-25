@@ -17,6 +17,9 @@ p {
     font-size: 16px;
 }
 
+/* Header information follows next. The header contains a navigation section with links to articles on the main page of the app. The main-header-img has an alt tag but it is left empty because the
+    image is purely decorative    */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,7 +53,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-                                                                /*renamed the class 'main-header-img' from 'hero'.*/
+    
 .main-header-img {
     height: 800px;
     width: 100%;
@@ -60,24 +63,28 @@ header nav ul li {
     background-position: center;
 }
 
-.content {
+/* The main part of the app body follows. I have used the semantic title of 'main' with 'article' as decendants. This should make the naming clear and not introduce any new class names that could cause
+    confusion. The float classes are the only exception but I added 'main' to their title to avoid confusion if they ever need to be used in future versions. Again, img alt tags are left empty because
+    the images are decorative only   */
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 
 }
 
-.float-left {
+.main-float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.main-float-right {
     float: right;
     margin-left: 25px;
 }
                                                  /* renamed 'content-sub' to 'content-article' */
-.content-article {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,6 +92,16 @@ header nav ul li {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+main img {
+    max-height: 200px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
                                                  /* I created a class that deals with the sub divisions of .content named .content-sub and moved it closer to .content so it matches its location on the page*/
     
 /* 
@@ -116,9 +133,7 @@ header nav ul li {
 }
 */
                        /* .content img alt tags are left empty because they are decorative */
-.content img {
-    max-height: 200px;
-}
+
 
 /*                                  I consolidated the three img into a single class called img. it is descendant in ".content img"
 .search-engine-optimization img {
@@ -134,10 +149,7 @@ header nav ul li {
 }
 */
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 /*                                   I consolidated the three h2 classes into a single descendant - "content h2". I should move it up the page to match its place on the page. 
 
 .search-engine-optimization h2 {
