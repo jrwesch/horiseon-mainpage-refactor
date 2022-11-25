@@ -77,9 +77,18 @@ p {
 
 }
 
-/* 1. I moved the classes associated with .content closer to it. This also moves the elements more in line with where they appear on the page.
+.content-sub {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* I created a class that deals with the sub divisions of .content named .content-sub and moved it closer to .content so it matches its location on the page*/
     
- .search-engine-optimization {
+/* 
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -105,13 +114,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+*/
 
 .content img {
     max-height: 200px;
 }
 
-/*                                  I consolidated the three img into a single class.
+/*                                  I consolidated the three img into a single class called img. it is descendant in ".content img"
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -148,17 +157,22 @@ h2 {
 */
 .benefits {
     margin-right: 20px;
-    margin-bottom: 32px;
+   /* margin-bottom: 32px; */
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
+   /* color: #ffffff; */
     background-color: #2589bd;
 }
-/*
+
+.benefit-sub {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*                      consolidated the different .benefit subdivisions into a single class called ".benefit-sub"
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
