@@ -12,7 +12,7 @@ HTML were written using the format found in the GitHub Styleguide. The CSS follo
 
 ## Site Preview
 
-![Alt text](/assets/images/jrwesch.github.io_horiseon-mainpage-refactor_.png?raw=true "Horiseon Mainpage)
+![Alt text](/assets/images/jrwesch.github.io_horiseon-mainpage-refactor_.png?raw=true "Horiseon Mainpage")
 
 
 ## Usage
