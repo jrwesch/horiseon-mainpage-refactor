@@ -3,7 +3,7 @@ Deadline - Nov 28, 2022
 
 ## Description
 
-Given starter code my assignment was to refactor the code to meet accessiblity standards and best practices for symantic HTML as well as consolidate and organize CSS selectors and properties. The resulting code should optimize the site for search engines.
+Given starter code my assignment was to refactor the code to meet accessiblity standards and best practices for semantic HTML as well as consolidate and organize CSS selectors and properties. The resulting code should optimize the site for search engines.
 
 The HTML portion of the code was refactored using semantic HTML elements and the CSS portion was condensed using references to the semantic HTML. Comments were added to the CSS AND HTML. The comments in the
 HTML were written using the format found in the GitHub Styleguide. The elements that were given were mostly &lt;div&gt;. Those were almost entirely changed to semantic HTML that represented the place and function of the code. The new tags were then checked for format against the GitHub style guide for HTML. The CSS follows the best practices that I found on multiple tutorial websites. The CSS comments had slightly fewer rules than the HTML comments so I styled them to look similar to the HTML comments for continuity and readability. All of the images on the page are purely decorative and as such have no information in the image alt attributes. If I had added text to the alt tags it would have been confusing for screen readers and led to poor accessibility. If the images do no load for some reason, the information held in their articles will not be affected.
