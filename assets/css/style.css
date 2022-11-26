@@ -7,7 +7,7 @@
 */
 
 
-/* 1.  Global - styles that affect uniformly throughout the application*/
+/* 1.  Global - styles that affect uniformly throughout the application */
 
 * {
     box-sizing: border-box;
@@ -28,8 +28,10 @@ p {
     font-size: 16px;
 }
 
-/* 2. Header - contains a navigation section with links to articles on the main page of the app. The main-header-img has an alt tag but it is left empty because the
-    image is purely decorative    */
+/* 
+2. Header - contains a navigation section with links to articles on the main page of the app. The main-header-img has an alt tag but it is left empty because the
+    image is purely decorative    
+*/
 
 header {
     padding: 20px;
@@ -74,9 +76,11 @@ header nav ul li {
     background-position: center;
 }
 
-/* 3. Main - I have used the semantic title of 'main' with 'article' as descendants. This should make the naming clear and not introduce any new class names that could cause
+/* 
+3. Main - I used the semantic title of 'main' with 'article' as descendants. This should make the naming clear and not introduce any new class names that could cause
     confusion. The float classes are the only exception but I added '.main' to their title to avoid confusion if they ever need to be used in future versions. Again, img alt tags are left empty because
-    the images are decorative only   */
+    the images are decorative only   
+*/
 
 main {
     width: 75%;
@@ -114,7 +118,8 @@ main h2 {
 }
 
 /* 4. Aside - this portion was initially named '.benefits' but I changed it to 'aside' to keep it in line with semantic html and remove confusion about future class names. The 
-    articles within the aside are styled by the descendant 'aside article' and the heading (h3) is is descendant as well. The images' alt tags are left empty because they are purely decorative */
+    articles within the aside are styled by the descendant 'aside article' and the heading (h3) is is descendant as well. The images' alt tags are left empty because they are purely decorative 
+*/
 
 aside {
     margin-right: 20px;
@@ -143,7 +148,7 @@ aside img {
     max-width: 150px;
 }
 
-/* Footer - the last section seen on the page and is the last styled on the style sheet. Since it is semantically labeled a <footer> in the html I followed that with the CSS. The <h2> is put in as
+/* 5. Footer - the last section seen on the page and is the last styled on the style sheet. Since it is semantically labeled a <footer> in the html I followed that with the CSS. The <h2> is put in as
     a descendant of the footer. */
 
 footer {
