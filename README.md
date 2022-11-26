@@ -20,7 +20,7 @@ The website is based on a real company website but will not provide the user acc
 
 ## Links
 
-[Link to GitHub Repositorty for Horiseon Refactor Project](https://github.com/jrwesch/horiseon-mainpage-refactor)
+[Link to GitHub Repositorty for Horiseon Refactor Project](https://github.com/jrwesch/horiseon-mainpage-refactor) <br> 
 [Link to GitHub Pages view of website](https://jrwesch.github.io/horiseon-mainpage-refactor)
 
 ## License
